@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 20px 50px 20px 50px;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 175%;
+    margin-bottom: 20px;
+}
+
+.opciones_1, .opciones_2, .opciones_3 {
+    border: 1px solid #000;
+    margin-bottom: 18px;
+    padding: 0 10px 10px 10px;
+    background: #9ed0d7;
+    position: relative;
+    
+ }
+
+h3 {
+    text-align: center;
+    border: 1px solid #000;
+    display: block;
+    width: 130px;
+    font-size: 125%;
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+}
+
+h3.chicken {
+    background: #d4d79e;
+}
+
+h3.beef {
+    background: #d7b29e;
+    color: #fff;
+    
+}
+
+h3.sushi {
+    background: #bfd79e;
+}
+
+p {
+ margin-top: 35px;
+ 
+    
+}
+
+/*--RESPONSIVE--*/
+
+@media (min-width: 768px) {
+        
+    .opciones_1, .opciones_2 {
+        width: 49%;
+                   
+      }
+    
+    .opciones_1 {
+        float: left;
+    }
+    
+    .opciones_2 {
+        float: right;
+        margin-bottom: 18px;
+    }
+    
+    .opciones_3 {
+        clear: both;
+    }
+
+}
+
+@media (min-width: 992px) {
+        
+    .opciones_1, .opciones_2 {
+        width: 32%;
+        float: left;
+        margin-right: 30px;
+        
+                   
+      }
+    .opciones_3 {
+        clear: none;
+        float: right;
+        width: 32%;
+    } 
+   
+        
+    }
+    
+
